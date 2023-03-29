@@ -5,6 +5,8 @@ import './App.css';
 import "./components/crypto.css";
 import {Crypto} from './components/Crypto';
 import {Exchanges} from './components/exchanges';
+import {News} from './components/news';
+
 const url = 'https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=200&page=1&sparkline=false'
 
 
@@ -31,8 +33,8 @@ const Navbar = () => {
 			<ul>
 				<li><Link to='/' className="navLink">  Cryptocurrency</Link></li>
 				<li><Link to='/exchanges' className="navLink">  Exchanges</Link></li>
-				<li>NFTs</li>
-				<li>News</li>
+				<li><Link to='/news' className="navLink">  News</Link></li>
+				<li>About</li>
 			</ul>
 		</nav>
 	)
@@ -49,6 +51,7 @@ const Navbar = () => {
 	<Routes>
 	<Route path='/' element={<Crypto coinss={coinss}/>} />
 	<Route path='/exchanges' element={<Exchanges />} />
+	<Route path='/news' element={<News />} />
       {/* <Crypto coinss={coinss}/>  */}
 	</Routes>
 	</BrowserRouter>

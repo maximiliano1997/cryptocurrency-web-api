@@ -26,7 +26,7 @@ console.log(exchanges)
               <table>
         <caption>
           Top 100 Exchanges Worldwide
-          <p>The global crypto market cap is <span>$1.17T</span>, a <span>}%</span> change over the last day</p>
+          <p>The global crypto market cap is <span>$1.17T</span>, a <span>%</span> change over the last day</p>
         </caption>
         <thead>
         <tr>
