@@ -1,0 +1,188 @@
+h1 {
+    margin: 15px;
+    border-bottom: none;
+}
+
+h2 {
+    font-size: 55px;
+    background-color: #4b25258b;
+    padding: 24px;
+}
+
+/* WHY */
+
+
+.why {
+
+    display: flex;
+    min-height: 600px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    position: relative;
+
+}
+
+
+
+.why1 {
+    width: 50%;
+    height: auto;
+    background-image: url('../components/images/pexels-photo-6765369.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.why2 {
+    width: 50%;
+}
+
+.why2>div {
+    margin: 55px;
+    text-align: left;
+    line-height: 35px;
+}
+
+
+
+
+/* TRACK RECORD */
+
+
+
+.track {
+
+    display: flex;
+    min-height: 600px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    position: relative;
+
+}
+
+
+
+.track2 {
+    width: 50%;
+    height: auto;
+    background-image: url('../components/images/aurora-background.77ca5e0ff46d050807e8d907d1b774f8.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.track1 {
+    width: 50%;
+}
+
+
+.track1>div {
+    margin: 55px;
+    text-align: left;
+    line-height: 35px;
+}
+
+
+
+
+
+
+/* TEAM */
+
+
+.team {
+
+    display: flex;
+    min-height: 600px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    position: relative;
+
+}
+
+
+
+.team1 {
+    width: 50%;
+    height: auto;
+    background-image: url('../components/images/pexels-photo-6765369.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.team2 {
+    width: 50%;
+}
+
+.team2>div {
+    margin: 55px;
+    text-align: left;
+    line-height: 35px;
+}
+
+@media screen and (max-width: 600px) {
+    .why {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .why1,
+    .why2 {
+        width: auto;
+        height: auto;
+    }
+
+
+
+
+
+    .track {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .track1,
+    .track2 {
+        width: auto;
+        height: auto;
+    }
+
+    .track1 {
+        order: 2;
+    }
+
+    .track2 {
+        order: 1;
+    }
+
+
+
+    .team {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .team1,
+    .team2 {
+        width: auto;
+        height: auto;
+    }
+}

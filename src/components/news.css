@@ -64,3 +64,52 @@ h1:hover {
     font-size: 25px;
     justify-content: justify;
 }
+
+
+
+@media screen and (max-width: 600px) {
+    h1 {
+        background-color: transparent;
+        margin: 100px 15px;
+        font-weight: 700;
+        font-size: 33px;
+        border-bottom: 3px solid brown;
+    }
+
+    .newsFeed {
+        display: flex;
+        margin: 25px 150px;
+        background-color: #222c;
+        transition: transform none;
+        width: 100%;
+        margin-left: -10px
+    }
+
+    .newsFeed:hover {
+        /* display: initial; */
+        /* margin: initial; */
+        /* background-color: ; */
+        transform: initial;
+        margin-left: -10px
+    }
+
+    .newsFeed>img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .source-news {
+        text-align: left;
+        margin-left: 50px;
+        font-size: 25px;
+        color: #ff0;
+    }
+
+
+    .source-title {
+        text-align: left;
+        margin-left: 50px;
+        font-size: 12px;
+        justify-content: justify;
+    }
+}
